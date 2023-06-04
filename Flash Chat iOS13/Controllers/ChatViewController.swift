@@ -18,7 +18,8 @@ class ChatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationItem.hidesBackButton = true
+        navigationItem.title = K.appName
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
