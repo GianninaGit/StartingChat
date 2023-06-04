@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -78,6 +78,7 @@
 				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
+				0B628194235DF03A00E35CAF /* Models */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
@@ -93,7 +94,6 @@
 				0B62818C235DF00B00E35CAF /* RegisterViewController.swift */,
 				0B62818E235DF01000E35CAF /* LoginViewController.swift */,
 				0B628190235DF01B00E35CAF /* ChatViewController.swift */,
-				0B628194235DF03A00E35CAF /* Models */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Models;
+			name = Models;
+			path = Controllers/Models;
 			sourceTree = "<group>";
 		};
 		8E40A0C712F0843511FB44F1 /* Pods */ = {
@@ -141,7 +142,6 @@
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
-				6F83042077D26E7C579E48B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,23 +201,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F83042077D26E7C579E48B4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CECB150B212B7C2E3757284B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
