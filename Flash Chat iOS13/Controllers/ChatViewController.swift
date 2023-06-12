@@ -25,6 +25,7 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
         
         tableView.dataSource = self
+        
         navigationItem.hidesBackButton = true
         navigationItem.title = K.appName
     }
@@ -45,7 +46,7 @@ class ChatViewController: UIViewController {
     
 }
 
-extension ChatViewController: UITableViewDataSource {
+extension ChatViewController: UITableViewDataSource { //protocolo para rellenar la TableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
@@ -56,5 +57,7 @@ extension ChatViewController: UITableViewDataSource {
         return cell
     }
 }
+
+
 
 
