@@ -44,7 +44,7 @@ class ChatViewController: UIViewController {
                 if let e = error {
                     print("There was an issue saving data to firestore, \(e)")
                 } else {
-                    print("Successfully saved date :)")
+                    print("Successfully saved date :)") 
                 }
             }
         }
